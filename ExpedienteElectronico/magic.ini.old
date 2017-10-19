@@ -1,0 +1,301 @@
+[MAGIC_ENV]
+Owner = Magic Software Enterprises Ltd
+DateMode = E
+InputPassword = N
+InputDate = N
+NumberOfRecentProjects = 20
+DefaultProject =
+StartApplication = %PATH_APP%ExpedienteElectronico.edp
+DeploymentMode = R
+Terminal = 0
+DefaultDatabase = SQLite Database
+TempDatabase = Memory
+ISAMTransaction = N
+DeadlockPrevent = N
+ThousandSeparator = ,
+DecimalSeparator = .
+DateSeparator = /
+TimeSeparator = :
+ScreenModePrompt = :
+Century = 1920
+BatchPaintTime = 1000
+RangePopTime = 10
+TempPopTime = 10
+IdleTime = 1
+MenuCloseTimeout = 0
+TaskCacheSize = 0
+ConfirmAutoExit = N
+AllowCreateInModify = Y
+AllowUpdateInQuery = N
+LocateModeQueryWarning = Y
+CopyrightMessages = Y
+RtUserCopyright =
+ResidentINI = N
+RtToolBarGUI = Y
+LoadResidentFiles = N
+DisplayFullMsgs = Y
+CenterScreenInOnline = N
+RepositionAfterModify = N
+AccessEnvironment = Y
+AccessColors = Y
+AccessFonts = Y
+AccessKeyboardMapping = Y
+AccessServers = Y
+AccessServices = Y
+AccessVisualConnection = Y
+AccessCommunications = Y
+AccessDBMS = Y
+AccessDatabases = Y
+AccessLogging = Y
+AccessLogicalNames = Y
+AccessLanguages = Y
+AccessPrinters = Y
+AccessHTMLStyles = Y
+AccessPrintAttributes = Y
+AccessLogon = Y
+SystemLogin = N
+MDIClientEdge = Y
+AllowTesting = N
+;
+LogoFile =
+ConstFile =D:\Magic\xpi\41\SUPPORT\mgconstw.eng
+HelpFile =D:\Magic\xpi\41\SUPPORT\mghelpw.chm
+StudioColorDefinitionFile = SUPPORT\clr_std.eng
+RuntimeApplicationColorDefinitionFile = D:\Magic\xpi\41\support\clr_iBolt_G+
+reen.eng
+RuntimeInternalColorDefinitionFile = D:\Magic\xpi\41\support\clr_iBolt_Gree+
+n.eng
+StudioFontDefinitionFile = SUPPORT\fnt_std.eng
+RuntimeApplicationFontDefinitionFile = D:\Magic\xpi\41\support\fnt_iBolt_Gr+
+een.eng
+RuntimeInternalFontDefinitionFile = D:\Magic\xpi\41\support\fnt_iBolt_Green+
+.eng
+StudioKeyboardMappingFile =SUPPORT\act_iBolt.eng
+RuntimeKeyboardMappingFile =SUPPORT\act_iBolt.eng
+HTMLStyle =
+PrintAttr =D:\Magic\xpi\41\SUPPORT\prn_std.eng
+UsersPath =D:\Magic\xpi\41\SUPPORT\usr_std.eng
+;OEM2AnsiFile = SUPPORT\OEM2Ansi.eng
+;CollatingFile = SUPPORT\acs_pc.eng
+StartingLanguage =
+DifferencesToolCommandLine =
+;
+
+ActivateRequestsServer = Y
+;Filters = HTTP_endusers:10% | SOAP_primary:20% | SOAP_secondary:10% | +
+RemoteCalls_external:20% | RemoteCalls_internal:10% | COM:10%
+MessagingServer = Default Broker
+RequesterTimeout = 0
+WebDocumentPath = C:\Magic\uniPaaS 1.9\Scripts
+InternetDispatcherPath = /uniScripts/MGrqispi.dll
+WebDocumentAlias = /uniScripts
+
+IndentCharacters = 3
+FileHandles = 0
+CommandProcessor = C:\Windows\system32\cmd.exe
+LockFile  = mglock.dat
+ResourceLockFilePath = mgres.loc
+LockWithinTran = Y
+LicenseFile = D:\Magic\xpi\41\License.dat
+LicenseName = IBNPSTD
+TooltipTimeout = 5
+AuthoringToolPath = Notepad.exe
+MaxBookMarks = 10
+MaxCrfResults = 5
+MaxConcurrentRequests = 0
+MaxConcurrentUsers = 0
+ContextInactivityTimeout = 864000
+ContextUnloadTimeout = 1200
+RetryOperationTime = 600
+GeneralErrorLog = mgerror.log
+
+IOTiming = I
+HTTPTimeout = 0
+PBImagesNumber = 6
+
+PalettesAlwaysOnTop = Y
+DockablePalettes = Y
+SingleExpandPalettes = N
+AutomaticPropertySheet = F
+LoadBalancingPriority = 3
+MailConnectionTimeout = 0
+MailOperationTimeout = 0
+ImageCacheSize = 256
+ImageCacheCheckTime = N
+CheckerLevel = R
+CheckerGroups = O
+CheckerMessageTable = Support\chk_std.dat
+CheckerJumpAuto = Y
+CheckerUnusedExp = O
+CheckerOutputFile =
+DropUserFormats =
+AccessCheckerMessages = Y
+LdapAddress =
+LdapConnectionString =
+LdapDomainContext =
+LdapTimeout = 0
+CTLCacheFilesPath = C:\Magic\uniPaaS 1.9\Browser_Client_Cache
+CTLCacheFilesAlias = /uniBCCache
+UseWindowsXPThemes = Y
+OpenComponentsUsing = C
+StudioStartupMode = W
+DefaultSourceDir = Source
+DefaultExportsDir = Exports
+ExternalCodePage = 1252
+SoapClientModulesPath = SoapClientModules\
+RIACacheFilesPath = C:\Magic\uniPaaS 1.9\RIACache
+EmbedFonts = Y
+CompressPDF = Y
+RCCloseTaskOnParent = N
+
+
+[MAGIC_SERVERS]
+Default Broker = 0,5115,,erick//3-10-2017//13:49:29,10,,1
+DEFAULT = 0,,,,10,,1
+
+[MAGIC_COMMS]
+NONE = 1, 0, NO Parameters needed
+TCP/IP = 2, 30, 1500-2000
+
+[MAGIC_DBMS]
+Btrieve = 1, NotAllowNull, 10.3, Btrieve Parameters, N, , NotLogSync, 0, +
+0, NotCheckExist,
+Pervasive = 2, NotAllowNull, 10.3, Pervasive Parameters, N, , NotLogSync, +
+0, 0, NotCheckExist,
+MySQL   = 4, NotAllowNull, 10.3, MySQL Parameters,,,,0,0,,
+DB2/400 = 7, NotAllowNull, 10.3, DB2/400 Parameters, N, , NotLogSync, 0, +
+0, NotCheckExist,
+Oracle = 14, NotAllowNull, 10.3, Oracle Parameters,,,,,,,
+AS400 = 17, NotAllowNull, 10.3, LANGUAGE=support\AS2EB.eng, N, , NotLogSync+
+, 1, 0, NotCheckExist, support\ACS400.eng
+DB2 = 19, NotAllowNull, 10.3, DB2 Parameters,,,,,1,,
+ODBC = 20, NotAllowNull, 10.3, ODBC Parameters,,,,,,,
+MicrosoftSQLServer = 21, NotAllowNull, 10.3, MicrosoftSQL Parameters,,,,0,0+
+,,
+Memory Tables = 22, NotAllowNull, 10.3, Memory Tables Parameters, N, , +
+NotLogSync, 0, 0, NotCheckExist,
+SQLite = 10, NotAllowNull, 10.3, SQLite Parameters, N, , NotLogSync, 0, +
+1, CheckExist,
+
+[MAGIC_DATABASES]
+Memory = DBMS,22, , , , , , , NoMagicRecordLock, ChangeFileInToolkit, +
+NoCheckDefinition, NoCheckKey, NoFileLocks, , , NoCheckExist, , ,
+SQLite Database = DBMS, 10, , sqlite.SQLite, , , , , NoMagicRecordLock, +
+ChangeFileInToolkit, CheckDefinition, NoCheckKey, NoFileLocks, , , +
+CheckExist, 0, , NoAS400SrvrSort,
+Default XML Memory Database = DBMS,22, , , , , , , NoMagicRecordLock, +
+ChangeFileInToolkit, NoCheckDefinition, NoCheckKey, NoFileLocks, FILE_CHUNK+
+_SIZE=50, , NoCheckExist, , ,
+Default XML Database = XML,0, , , , , , , NoMagicRecordLock, ChangeFileInTo+
+olkit, CheckDefinition, CheckKey, FileLocks, , , NoCheckExist, 0, , +
+NoAS400SrvrSort, , Default XML Memory Database
+RIADemo=DBMS, 10, , RIADemo.sqlite, , , , , NoMagicRecordLock, ChangeFileIn+
+Toolkit, CheckDefinition, NoCheckKey, NoFileLocks, , , CheckExist, 0, , +
+NoAS400SrvrSort,
+OnlineSamples=DBMS, 10, , OnlineSamples.sqlite, , , , , NoMagicRecordLock, +
+ChangeFileInToolkit, CheckDefinition, NoCheckKey, NoFileLocks, , , +
+CheckExist, 0, , NoAS400SrvrSort,
+RIASamples=DBMS, 10, , RIASamples.sqlite, , , , , NoMagicRecordLock, +
+ChangeFileInToolkit, CheckDefinition, NoCheckKey, NoFileLocks, , , +
+CheckExist, 0, , NoAS400SrvrSort,
+MobileWeb=DBMS, 10, , MobileWeb.sqlite, , , , , NoMagicRecordLock, +
+ChangeFileInToolkit, CheckDefinition, NoCheckKey, NoFileLocks, , , +
+CheckExist, 0, , NoAS400SrvrSort,
+PRODAT = DBMS, 17, PRODAT, PRODAT, 192.168.0.240, , COMUNICA, COMUNICA, +
+NoMagicRecordLock, DontChangeFileInToolkit, NoCheckDefinition, NoCheckKey, +
+NoFileLocks, , , CheckExist, 0, , NoAS400SrvrSort, support\ACS400.eng
+PRUEBAS = DBMS, 17, PRUEBAS, PRUEBAS, 192.168.0.240, , COMUNICA, COMUNICA, +
+NoMagicRecordLock, DontChangeFileInToolkit, NoCheckDefinition, NoCheckKey, +
+NoFileLocks, , , CheckExist, 0, , NoAS400SrvrSort, support\ACS400.eng
+IND2016 = DBMS, 17, IND2016, IND2016, 192.168.0.240, , COMUNICA, COMUNICA, +
+NoMagicRecordLock, DontChangeFileInToolkit, NoCheckDefinition, NoCheckKey, +
+NoFileLocks, , , CheckExist, 0, , NoAS400SrvrSort, support\ACS400.eng
+Labcore = DBMS, 21, InterEspañol, , 172.26.7.1, , Español, Español, +
+NoMagicRecordLock, DontChangeFileInToolkit, NoCheckDefinition, NoCheckKey, +
+NoFileLocks, , , CheckExist, 0, , NoAS400SrvrSort,
+InterExpCli = DBMS, 21, InterExpCli, , 192.168.0.94, , expcli, expcli, +
+NoMagicRecordLock, DontChangeFileInToolkit, NoCheckDefinition, NoCheckKey, +
+NoFileLocks, , , NoCheckExist, 0, , NoAS400SrvrSort,
+
+[MAGIC_LOGICAL_NAMES]
+PATH_APP = D:\App\Visor\ExpedienteElectronico\
+img_menu = %PATH_APP%Imagenes
+
+[MAGIC_PRINTERS]
+Printer1 = ,SUPPORT\lj3.atr,,60
+Printer2 = laser_printer,SUPPORT\epson.atr,,40
+Printer3 = (server),,,66
+Printer4 = (server)printer2,,,60
+
+[MAGIC_LANGUAGE]
+
+[MAGIC_SERVICES]
+Default Service = Default Broker,,,
+
+[MAGIC_GATEWAYS]
+;MGDB00=MGBtrieve.dll
+MGDB01=D:\Magic\xpi\41\Gateways\MGPervasiveSQL.dll
+;MGDB03=MGMySQL.dll
+							
+MGDB06=D:\Magic\xpi\41\Gateways\mgdb2400.DLL
+;MGDB09=mgSQLite.dll
+;MGDB13=mgOracle.dll
+MGDB16=D:\Magic\xpi\41\Gateways\mgeac32.dll
+;MGDB18=mgdb2.DLL
+MGDB19=D:\Magic\xpi\41\Gateways\mgodbc.dll
+MGDB20=D:\Magic\xpi\41\Gateways\mgmssql.dll
+MGDB21=D:\Magic\xpi\41\Gateways\mgmemory.dll
+
+[MAGIC_JAVA]
+JAVA_HOME=C:\Magic\Java\jdk1.6.0_21
+JVM_PATH=
+CLASSPATH=support\uniUtils.jar;.;
+JVM_ARGS=-Djava.compiler=NONE -Xms16m -Xmx256m -Dorg.xml.sax.driver=org.apa+
+che.xerces.parsers.SAXParser
+
+[MAGIC_RIA]
+InternalLogLevel=
+InternalLogFile=
+InternalLogSync=Message
+DisplayStatisticInformation=N
+
+[MAGIC_LOGGING]
+Task = Y
+Levels = Y
+DataView = Y
+Recompute = Y
+Flow = Y
+Events = Y
+LogClient = Y
+TransCache = Y
+LogSynch = Y
+BeginEndMsg = Y
+Gateway = Y
+BackgroundMsg = Y
+ExternalLogFileName =
+
+[CRR_INTERFACES]
+Web Service = Add_On\CRR\Wizards\CRRws.ecf, InvokeWizard, WS
+Stored Procedure = Add_On\CRR\Wizards\CRRSp.ecf, InvokeWizard, StoredProc
+Java Components = Add_On\CRR\Wizards\CRRjcg.ecf, InvokeWizard, JAVA
+MSMQ Support = Add_On\CRR\Wizards\CRRMessaging.ecf,InvokeWizard, MSMQ
+
+[TOOLS_MENU]
+DDFMaker = A,&DDF Maker,,Add_On\DDFMaker\DDFMaker.ecf,,,Add_On\DDFMaker\DDF+
+Maker_suf.opr,ImageFor = B ToolNumber = 60 ToolGroup = 1	ToolTip = +
+"Create data dictionary file"
+String Extractor = A,S&tring Extractor,,Add_On\StringExtractor\StringExtrac+
+tor.ECF,,,,Ima+ geFor = B ToolNumber = 283 ToolGroup = 1	ToolTip = +
+"Extract phrases for multi lingual dictionary"
+
+
+
+[MAGIC_BUILDERS]
+ECI=Builders\ECI\
+EJB=Builders\EJB\
+COM=Builders\COM\
+WS=Builders\WS\
+RC=Builders\RC\
+RIAApplicationsAlias=uniRIAApplications
+Soap Server Address = http://localhost:6060
+SoapUser = admin

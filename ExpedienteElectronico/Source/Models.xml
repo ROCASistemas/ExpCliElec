@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="11009"/>
+    <WithIsn val="Y"/>
+    <LastIsn val="67"/>
+    <LastIsnFolder val="2"/>
+    <Folders/>
+  </Header>
+
+  <ModelsRepository>
+    <Models>
+      <Object id="1" name="Numerico8P0">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="8P0"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="8"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="2" name="TipoBoton">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </GuiDisplayTable>
+          <Browser id="162">
+            <PropertyList model="CTRL_BROWSER_PUSH_BUTTON"/>
+          </Browser>
+          <BrowserTable id="163">
+            <PropertyList model="CTRL_BROWSER_PUSH_BUTTON"/>
+          </BrowserTable>
+          <Size id="174"/>
+          <_Flip id="194"/>
+          <RichClient id="453">
+            <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON"/>
+          </RichClient>
+          <RichClientTable id="454">
+            <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON"/>
+          </RichClientTable>
+        </PropertyList>
+      </Object>
+      <Object id="4" name="Tablas">
+        <PropertyList model="CTRL_GUI0_TABLE">
+          <Color id="51" val="1"/>
+          <BorderStyle id="64" val="1"/>
+          <LineDivider id="78" val="Y"/>
+          <ColumnDivider id="189" val="Y"/>
+          <AllowColumnResize id="191"/>
+          <MultiMarking id="196"/>
+          <BottomPositionInterval id="411" val="2"/>
+          <SetTableColorBy id="428" val="2"/>
+          <AlternatingBgColor id="429" val="283"/>
+          <AllowColumnReorder id="430"/>
+        </PropertyList>
+      </Object>
+      <Object id="6" name="Cerrar">
+        <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+          <ControlName id="46" val="Cerrar"/>
+          <Modifiable id="53"/>
+          <Format id="82" valUnicode="Cerrar"/>
+          <RaiseEvent id="234">
+            <EventType val="I"/>
+            <InternalEventID val="14"/>
+            <PublicObject comp="-1"/>
+          </RaiseEvent>
+        </PropertyList>
+      </Object>
+      <Object id="7" name="Agregar">
+        <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+          <ControlName id="46" val="Agregar"/>
+          <Format id="82" valUnicode="Agregar"/>
+          <RaiseEvent id="234">
+            <EventType val="I"/>
+            <InternalEventID val="34"/>
+            <PublicObject comp="-1"/>
+          </RaiseEvent>
+        </PropertyList>
+      </Object>
+      <Object id="8" name="Modificar">
+        <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+          <ControlName id="46" val="Modificar"/>
+          <Format id="82" valUnicode="Modificar"/>
+          <RaiseEvent id="234">
+            <EventType val="I"/>
+            <InternalEventID val="34"/>
+            <PublicObject comp="-1"/>
+          </RaiseEvent>
+        </PropertyList>
+      </Object>
+      <Object id="9" name="Ventana">
+        <PropertyList model="FORM_GUI0">
+          <TitleBar id="26"/>
+          <SystemMenu id="27"/>
+          <MinimizeButton id="28"/>
+          <MaximizeButton id="29"/>
+          <BorderStyle id="64" val="1"/>
+          <_Comment id="218"/>
+          <StartupPosition id="275" val="3"/>
+          <FormName id="311"/>
+          <UserStateIdentifier id="437"/>
+        </PropertyList>
+      </Object>
+      <Object id="10" name="Aceptar">
+        <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+          <ControlName id="46" val="Aceptar"/>
+          <Format id="82" valUnicode="\Aceptar"/>
+          <RaiseEvent id="234">
+            <EventType val="I"/>
+            <InternalEventID val="34"/>
+            <PublicObject comp="-1"/>
+          </RaiseEvent>
+        </PropertyList>
+      </Object>
+      <Object id="11" name="Cancelar">
+        <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+          <ControlName id="46" val="Cancelar"/>
+          <Format id="82" valUnicode="Cancelar"/>
+          <RaiseEvent id="234">
+            <EventType val="I"/>
+            <InternalEventID val="14"/>
+            <PublicObject comp="-1"/>
+          </RaiseEvent>
+        </PropertyList>
+      </Object>
+      <Object id="13" name="Forma - General">
+        <PropertyList model="FORM_RICH_CLIENT">
+          <Width id="23" val="876"/>
+          <Height id="24" val="416"/>
+          <MaximizeButton id="29" val="Y"/>
+          <GridY id="39" val="4"/>
+          <BorderStyle id="64" val="1"/>
+          <_Comment id="218"/>
+          <FormName id="311"/>
+          <WindowType id="358" val="2"/>
+        </PropertyList>
+      </Object>
+      <Object id="14" name="Forma - SDI Mediana - 150 x 30">
+        <PropertyList model="FORM_RICH_CLIENT">
+          <Y id="22" val="40"/>
+          <Width id="23" val="600"/>
+          <Height id="24" val="240"/>
+          <GridY id="39" val="4"/>
+          <_Comment id="218"/>
+          <StartupPosition id="275" val="3"/>
+          <FormName id="311"/>
+          <WindowType id="358" val="2"/>
+          <MinimumWidth id="418" val="400"/>
+          <MinimumHeight id="419" val="160"/>
+          <PersistentFormState id="493"/>
+        </PropertyList>
+      </Object>
+      <Object id="15" name="Forma - Modal Chica - 100 x 20">
+        <PropertyList model="FORM_RICH_CLIENT">
+          <Y id="22" val="40"/>
+          <Width id="23" val="400"/>
+          <Height id="24" val="160"/>
+          <GridY id="39" val="4"/>
+          <BorderStyle id="64" val="1"/>
+          <_Comment id="218"/>
+          <StartupPosition id="275" val="3"/>
+          <FormName id="311"/>
+          <PersistentFormState id="493"/>
+        </PropertyList>
+      </Object>
+      <Object id="16" name="Forma - Modal PopUp - 60 x 15">
+        <PropertyList model="FORM_RICH_CLIENT">
+          <Y id="22" val="40"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="120"/>
+          <SystemMenu id="27"/>
+          <GridY id="39" val="4"/>
+          <BorderStyle id="64" val="1"/>
+          <_Comment id="218"/>
+          <StartupPosition id="275" val="5"/>
+          <FormName id="311"/>
+          <PersistentFormState id="493"/>
+        </PropertyList>
+      </Object>
+      <Object id="17" name="Forma - Modal Mnsaje - 60 x 15">
+        <PropertyList model="FORM_RICH_CLIENT">
+          <Y id="22" val="40"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="120"/>
+          <TitleBar id="26"/>
+          <SystemMenu id="27"/>
+          <GridY id="39" val="4"/>
+          <BorderStyle id="64" val="1"/>
+          <_Comment id="218"/>
+          <StartupPosition id="275" val="3"/>
+          <FormName id="311"/>
+          <PersistentFormState id="493"/>
+        </PropertyList>
+      </Object>
+      <Object id="18" name="Forma - Menú">
+        <PropertyList model="FORM_RICH_CLIENT">
+          <X id="21"/>
+          <Y id="22"/>
+          <Width id="23" val="1004"/>
+          <Height id="24" val="416"/>
+          <MinimizeButton id="28" val="Y"/>
+          <MaximizeButton id="29" val="Y"/>
+          <GridY id="39" val="4"/>
+          <_Comment id="218"/>
+          <StartupPosition id="275" val="1"/>
+          <FormName id="311"/>
+          <WindowType id="358" val="2"/>
+          <DisplayToolbar id="360"/>
+          <DisplayMenu id="396"/>
+          <MinimumWidth id="418" val="800"/>
+          <MinimumHeight id="419" val="320"/>
+          <PersistentFormState id="493"/>
+        </PropertyList>
+      </Object>
+      <Object id="19" name="Control Tabla">
+        <PropertyList model="CTRL_RICH_CLIENT_TABLE">
+          <Placement bottom="100" id="20" right="100"/>
+          <ColumnDivider id="189" val="Y"/>
+          <RowHighlightColor id="410" val="231"/>
+          <SetTableColorBy id="428" val="2"/>
+          <AlternatingBgColor id="429" val="230"/>
+        </PropertyList>
+      </Object>
+      <Object id="20" name="Control Edit">
+        <PropertyList model="CTRL_RICH_CLIENT_EDIT">
+          <AutoWide id="392" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="21" name="Control Edit Contraseña">
+        <PropertyList model="CTRL_RICH_CLIENT_EDIT">
+          <MultiLineEdit id="71"/>
+          <PasswordEdit id="85" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="22" name="Control Text">
+        <PropertyList model="CTRL_RICH_CLIENT_LABEL">
+          <Color id="51" val="224"/>
+        </PropertyList>
+      </Object>
+      <Object id="23" name="Control Text Ruta Programa">
+        <PropertyList model="CTRL_RICH_CLIENT_LABEL">
+          <Placement id="20" right="100"/>
+          <Font id="50" val="203"/>
+          <Color id="51" val="231"/>
+        </PropertyList>
+      </Object>
+      <Object id="24" name="Control Image Pushbutton">
+        <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+          <Placement id="20" left="100" top="100"/>
+          <Font id="50" val="205"/>
+          <Color id="51" val="223"/>
+          <ImageListFileName id="88" val="%EVA%Imagenes\BotonesAzul.png"/>
+          <ButtonStyle id="96" val="2"/>
+        </PropertyList>
+      </Object>
+      <Object id="25" name="Control CheckBox">
+        <PropertyList model="CTRL_RICH_CLIENT_CHECKBOX">
+          <Color id="51" val="132"/>
+          <Multiline id="71"/>
+        </PropertyList>
+      </Object>
+      <Object id="26" name="Control Radio Button">
+        <PropertyList model="CTRL_RICH_CLIENT_RADIO"/>
+      </Object>
+      <Object id="27" name="Control Tab">
+        <PropertyList model="CTRL_RICH_CLIENT_TAB">
+          <Multiline id="71" val="Y"/>
+          <HotTrack id="354" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="28" name="Control List Box">
+        <PropertyList model="CTRL_RICH_CLIENT_LISTBOX"/>
+      </Object>
+      <Object id="29" name="Control Combo Box">
+        <PropertyList model="CTRL_RICH_CLIENT_COMBOBOX">
+          <VisibleLines id="68" val="10"/>
+        </PropertyList>
+      </Object>
+      <Object id="30" name="Control Combo Box Estatus A/I">
+        <PropertyList model="CTRL_RICH_CLIENT_COMBOBOX">
+          <ItemsList id="45" valUnicode="A,I"/>
+          <DisplayList id="303" valUnicode="Activo,Inactivo"/>
+        </PropertyList>
+      </Object>
+      <Object id="31" name="Control Group">
+        <PropertyList model="CTRL_RICH_CLIENT_GROUP"/>
+      </Object>
+      <Object id="32" name="Control Line">
+        <PropertyList model="CTRL_RICH_CLIENT_LINE">
+          <Placement id="20" right="100"/>
+        </PropertyList>
+      </Object>
+      <Object id="33" name="Control Date x Binding .NET">
+        <PropertyList model="CTRL_RICH_CLIENT_DOTNET">
+          <ObjectType id="478" val="DevExpress.XtraEditors.DateEdit"/>
+        </PropertyList>
+      </Object>
+      <Object id="34" name="Control Time x Binding .NET">
+        <PropertyList model="CTRL_RICH_CLIENT_DOTNET">
+          <ObjectType id="478" val="DevExpress.XtraEditors.TimeEdit"/>
+        </PropertyList>
+      </Object>
+      <Object id="35" name="BTN_Zoom [...]">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="255"/>
+          <Size id="174" val="255"/>
+          <_Flip id="194"/>
+          <RichClient id="453">
+            <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+              <Model comp="-1" id="1" obj="24"/>
+              <Format id="82" valUnicode="..."/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </RichClient>
+          <RichClientTable id="454">
+            <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+              <Model comp="-1" id="1" obj="24"/>
+              <Format id="82" valUnicode="..."/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </RichClientTable>
+        </PropertyList>
+      </Object>
+      <Object id="36" name="BTN_Seleccionar (Select)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="30"/>
+          <Size id="174" val="30"/>
+          <_Flip id="194"/>
+          <RichClient id="453">
+            <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+              <Model comp="-1" id="1" obj="24"/>
+              <Format id="82" valUnicode="&amp;Seleccionar"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="42"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </RichClient>
+          <RichClientTable id="454">
+            <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+              <Model comp="-1" id="1" obj="24"/>
+              <Format id="82" valUnicode="&amp;Seleccionar"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="42"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </RichClientTable>
+        </PropertyList>
+      </Object>
+      <Object id="37" name="BTN_Cancelar (Exit)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="30"/>
+          <Size id="174" val="30"/>
+          <_Flip id="194"/>
+          <RichClient id="453">
+            <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+              <Model comp="-1" id="1" obj="24"/>
+              <Format id="82" valUnicode="&amp;Cancelar"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="14"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </RichClient>
+          <RichClientTable id="454">
+            <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+              <Model comp="-1" id="1" obj="24"/>
+              <Format id="82" valUnicode="&amp;Cancelar"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="14"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </RichClientTable>
+        </PropertyList>
+      </Object>
+      <Object id="38" name="BTN_Aceptar (Exit)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="30"/>
+          <Size id="174" val="30"/>
+          <_Flip id="194"/>
+          <RichClient id="453">
+            <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+              <Model comp="-1" id="1" obj="24"/>
+              <Format id="82" valUnicode="&amp;Aceptar"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="14"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </RichClient>
+          <RichClientTable id="454">
+            <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+              <Model comp="-1" id="1" obj="24"/>
+              <Format id="82" valUnicode="&amp;Aceptar"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="14"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </RichClientTable>
+        </PropertyList>
+      </Object>
+      <Object id="39" name="BTN_Salir (Exit)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="30"/>
+          <Size id="174" val="30"/>
+          <_Flip id="194"/>
+          <RichClient id="453">
+            <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+              <Model comp="-1" id="1" obj="24"/>
+              <Format id="82" valUnicode="&amp;Salir"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="14"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </RichClient>
+          <RichClientTable id="454">
+            <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+              <Model comp="-1" id="1" obj="24"/>
+              <Format id="82" valUnicode="&amp;Salir"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="14"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </RichClientTable>
+        </PropertyList>
+      </Object>
+      <Object id="40" name="BTN_Crear (Zoom)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="30"/>
+          <Size id="174" val="30"/>
+          <_Flip id="194"/>
+          <PartOfDataview id="449"/>
+          <RichClient id="453">
+            <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+              <Model comp="-1" id="1" obj="24"/>
+              <Format id="82" valUnicode="&amp;Crear"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </RichClient>
+          <RichClientTable id="454">
+            <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+              <Model comp="-1" id="1" obj="24"/>
+              <Format id="82" valUnicode="&amp;Crear"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </RichClientTable>
+        </PropertyList>
+      </Object>
+      <Object id="41" name="BTN_Modificar (Zoom)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="30"/>
+          <Size id="174" val="30"/>
+          <_Flip id="194"/>
+          <PartOfDataview id="449"/>
+          <RichClient id="453">
+            <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+              <Model comp="-1" id="1" obj="24"/>
+              <Format id="82" valUnicode="&amp;Modificar"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </RichClient>
+          <RichClientTable id="454">
+            <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+              <Model comp="-1" id="1" obj="24"/>
+              <Format id="82" valUnicode="&amp;Modificar"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </RichClientTable>
+        </PropertyList>
+      </Object>
+      <Object id="42" name="BTN_Eliminar (Zoom)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="30"/>
+          <Size id="174" val="30"/>
+          <_Flip id="194"/>
+          <PartOfDataview id="449"/>
+          <RichClient id="453">
+            <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+              <Model comp="-1" id="1" obj="24"/>
+              <Format id="82" valUnicode="&amp;Eliminar"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </RichClient>
+          <RichClientTable id="454">
+            <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+              <Model comp="-1" id="1" obj="24"/>
+              <Format id="82" valUnicode="&amp;Eliminar"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </RichClientTable>
+        </PropertyList>
+      </Object>
+      <Object id="43" name="BTN_Grabar (Zoom)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="30"/>
+          <Size id="174" val="30"/>
+          <_Flip id="194"/>
+          <PartOfDataview id="449"/>
+          <RichClient id="453">
+            <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+              <Model comp="-1" id="1" obj="24"/>
+              <Format id="82" valUnicode="&amp;Grabar"/>
+              <ImageListFileName id="88" val="D:\App\Visor\ExpedienteElectronico\Imagenes\Botones\Buscar.png"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </RichClient>
+          <RichClientTable id="454">
+            <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+              <Model comp="-1" id="1" obj="24"/>
+              <Format id="82" valUnicode="&amp;Grabar"/>
+              <RaiseEvent id="234">
+                <EventType val="I"/>
+                <InternalEventID val="34"/>
+                <PublicObject comp="-1"/>
+              </RaiseEvent>
+            </PropertyList>
+          </RichClientTable>
+        </PropertyList>
+      </Object>
+      <Object id="47" name="BTN_Buscar(Zoom)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="30"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <ControlName id="46" val="Buscar"/>
+              <DefaultImageFile id="88" val="D:\App\Visor\ExpedienteElectronico\Imagenes\Botones\Buscar.png"/>
+            </PropertyList>
+          </GuiDisplay>
+          <Browser id="162">
+            <PropertyList model="CTRL_BROWSER_PUSH_BUTTON"/>
+          </Browser>
+          <Size id="174" val="30"/>
+          <_Flip id="194"/>
+          <_FieldStyle id="276" val="1"/>
+          <PartOfDataview id="449"/>
+          <RichClient id="453">
+            <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+              <Font id="50" val="20"/>
+            </PropertyList>
+          </RichClient>
+        </PropertyList>
+      </Object>
+      <Object id="44" name="aTipoOperacion Alta/Baja/Cambi">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Range id="98" valUnicode="Alta,Baja,Cambio"/>
+          <Picture id="157" valUnicode="U"/>
+          <Size id="174" val="1"/>
+          <_Flip id="194"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object id="45" name="RutaArchivo">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="2000"/>
+          <Size id="174" val="2000"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="48" name="BTN_Buscar">
+        <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+          <ControlName id="46" val="Buscar"/>
+          <Format id="82" valUnicode="Buscar"/>
+          <DefaultImageFile id="88" val="%img_menu%\Botones\Buscar.png"/>
+          <ButtonStyle id="96" val="2"/>
+          <RaiseEvent id="234">
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="1"/>
+          </RaiseEvent>
+        </PropertyList>
+      </Object>
+      <Object id="49" name="BTN_Limpiar">
+        <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+          <ControlName id="46" val="Limpiar"/>
+          <Format id="82" valUnicode="Limpiar"/>
+          <DefaultImageFile id="88" val="%img_menu%\Botones\Limpiar.png"/>
+          <ButtonStyle id="96" val="2"/>
+          <RaiseEvent id="234">
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="11"/>
+          </RaiseEvent>
+        </PropertyList>
+      </Object>
+      <Object id="59" name="BTN_Crear">
+        <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+          <ControlName id="46" val="Limpiar"/>
+          <Format id="82" valUnicode="Limpiar"/>
+          <DefaultImageFile id="88" val="%img_menu%\Botones\Crear.png"/>
+          <ButtonStyle id="96" val="2"/>
+          <RaiseEvent id="234">
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="5"/>
+          </RaiseEvent>
+        </PropertyList>
+      </Object>
+      <Object id="60" name="BTN_Ver">
+        <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+          <ControlName id="46" val="Limpiar"/>
+          <Format id="82" valUnicode="Limpiar"/>
+          <DefaultImageFile id="88" val="%img_menu%\Botones\Ver.png"/>
+          <ButtonStyle id="96" val="2"/>
+          <RaiseEvent id="234">
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="6"/>
+          </RaiseEvent>
+        </PropertyList>
+      </Object>
+      <Object id="61" name="BTN_Actualizar">
+        <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+          <ControlName id="46" val="Buscar"/>
+          <Format id="82" valUnicode="Buscar"/>
+          <DefaultImageFile id="88" val="%img_menu%\Botones\Actualizar.png"/>
+          <ButtonStyle id="96" val="2"/>
+          <RaiseEvent id="234">
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="7"/>
+          </RaiseEvent>
+        </PropertyList>
+      </Object>
+      <Object id="62" name="BTN_Modificar">
+        <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+          <ControlName id="46" val="Limpiar"/>
+          <Format id="82" valUnicode="Limpiar"/>
+          <DefaultImageFile id="88" val="%img_menu%\Botones\Modificar.png"/>
+          <ButtonStyle id="96" val="2"/>
+          <RaiseEvent id="234">
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="13"/>
+          </RaiseEvent>
+        </PropertyList>
+      </Object>
+      <Object id="63" name="BTN_Eliminar">
+        <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+          <ControlName id="46" val="Limpiar"/>
+          <Format id="82" valUnicode="Limpiar"/>
+          <DefaultImageFile id="88" val="%img_menu%\Botones\Eliminar.png"/>
+          <ButtonStyle id="96" val="2"/>
+          <RaiseEvent id="234">
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="8"/>
+          </RaiseEvent>
+        </PropertyList>
+      </Object>
+      <Object id="56" name="BTN_Guardar">
+        <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+          <ControlName id="46" val="Limpiar"/>
+          <Format id="82" valUnicode="Limpiar"/>
+          <DefaultImageFile id="88" val="%img_menu%\Botones\Guardar.png"/>
+          <ButtonStyle id="96" val="2"/>
+          <RaiseEvent id="234">
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="2"/>
+          </RaiseEvent>
+        </PropertyList>
+      </Object>
+      <Object id="57" name="BTN_Cancelar">
+        <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+          <ControlName id="46" val="Limpiar"/>
+          <Format id="82" valUnicode="Limpiar"/>
+          <DefaultImageFile id="88" val="%img_menu%\Botones\Cancelar.png"/>
+          <ButtonStyle id="96" val="2"/>
+          <RaiseEvent id="234">
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="3"/>
+          </RaiseEvent>
+        </PropertyList>
+      </Object>
+      <Object id="58" name="BTN_Salir">
+        <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+          <ControlName id="46" val="Buscar"/>
+          <Format id="82" valUnicode="Buscar"/>
+          <DefaultImageFile id="88" val="%img_menu%\Botones\Salir.png"/>
+          <ButtonStyle id="96" val="2"/>
+          <RaiseEvent id="234">
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="4"/>
+          </RaiseEvent>
+        </PropertyList>
+      </Object>
+      <Object id="54" name="BTN_Seleccionar">
+        <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+          <ControlName id="46" val="Limpiar"/>
+          <Format id="82" valUnicode="Limpiar"/>
+          <DefaultImageFile id="88" val="%img_menu%\Botones\Seleccionar.png"/>
+          <ButtonStyle id="96" val="2"/>
+          <RaiseEvent id="234">
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="12"/>
+          </RaiseEvent>
+        </PropertyList>
+      </Object>
+      <Object id="53" name="BTN_Refrescar">
+        <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+          <ControlName id="46" val="Buscar"/>
+          <Format id="82" valUnicode="Buscar"/>
+          <DefaultImageFile id="88" val="%img_menu%\Botones\Refrescar.png"/>
+          <ButtonStyle id="96" val="2"/>
+          <RaiseEvent id="234">
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="10"/>
+          </RaiseEvent>
+        </PropertyList>
+      </Object>
+      <Object id="64" name="BTN_Catalogo">
+        <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+          <ControlName id="46" val="Buscar"/>
+          <Format id="82" valUnicode="Buscar"/>
+          <DefaultImageFile id="88" val="%img_menu%\Botones\Catalogo.png"/>
+          <ButtonStyle id="96" val="2"/>
+          <RaiseEvent id="234">
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="9"/>
+          </RaiseEvent>
+        </PropertyList>
+      </Object>
+      <Object id="66" name="BTN_General">
+        <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+          <DefaultImageFile id="88" val="%img_menu%\Botones\General.png"/>
+          <ButtonStyle id="96" val="4"/>
+          <RaiseEvent id="234">
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="15"/>
+          </RaiseEvent>
+        </PropertyList>
+      </Object>
+      <Object id="67" name="BTN_Aceptar">
+        <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+          <ControlName id="46" val="Aceptar"/>
+          <Format id="82" valUnicode="Aceptar"/>
+          <DefaultImageFile id="88" val="%img_menu%\Botones\Aceptar.png"/>
+          <ButtonStyle id="96" val="2"/>
+          <RaiseEvent id="234">
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="14"/>
+          </RaiseEvent>
+        </PropertyList>
+      </Object>
+    </Models>
+  </ModelsRepository>
+
+</Application>

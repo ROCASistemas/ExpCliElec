@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="11009"/>
+    <WithIsn val="Y"/>
+    <LastIsn val="0"/>
+  </Header>
+
+  <ProjectProperties>
+    <ProjectData>
+      <GUID val="{32E85623-9BB6-455F-B250-8A36E96CA93B}"/>
+      <RemoteFlowMonitorRight comp="-1"/>
+      <ApplColorDefinitionFile val="%PATH_APP%font_color\clr_rnt.eng"/>
+      <ApplFontDefinitionFile val="%PATH_APP%font_color\fnt_rnt.eng"/>
+      <NulArithmetic val="N"/>
+      <WindowSortBy val="R"/>
+      <_SystemPulldownMenu comp="-1" obj="1"/>
+      <_SystemContextMenu comp="-1"/>
+      <ExposeComment val="N"/>
+      <ProjectName val="ExpedienteElectronico"/>
+    </ProjectData>
+  </ProjectProperties>
+
+</Application>

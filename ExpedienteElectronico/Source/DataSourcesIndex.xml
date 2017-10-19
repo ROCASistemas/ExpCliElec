@@ -1,0 +1,169 @@
+ <Application>
+ 
+<Header>
+
+  <Version val="11009"/>
+
+  <WithIsn val="Y"/>
+
+  <Exe comp="-1"/>
+
+  <LastIsn val="233"/>
+
+  <LastIsnFolder val="1"/>
+
+  <Folders/>
+
+</Header>
+ <DataSourceRepository>
+  <DataObjects>
+ 
+<DataObject PhysicalName="MPAIS" Resident="N" data_source="PRODAT" id="1" name="MPAIS" offset="212" length="7389"/> 
+<DataObject PhysicalName="MPAISDET" Resident="N" data_source="PRODAT" id="2" name="MPAISDET" offset="7602" length="4063"/> 
+<DataObject PhysicalName="TDEMU" Resident="N" data_source="PRODAT" id="3" name="TDEMU" offset="11666" length="8402"/> 
+<DataObject PhysicalName="TCOLON" Resident="N" data_source="PRODAT" id="4" name="TCOLON" offset="20069" length="13045"/> 
+<DataObject PhysicalName="MAECTO02" Resident="N" data_source="PRODAT" id="5" name="MAECTO02" offset="33115" length="12083"/> 
+<DataObject PhysicalName="TEDOC" Resident="N" data_source="PRODAT" id="6" name="TEDOC" offset="45199" length="6604"/> 
+<DataObject PhysicalName="TRELI" Resident="N" data_source="PRODAT" id="7" name="TRELI" offset="51804" length="7286"/> 
+<DataObject PhysicalName="TETNICA" Resident="N" data_source="PRODAT" id="8" name="TETNICA" offset="59091" length="7613"/> 
+<DataObject PhysicalName="MACOMC" Resident="N" data_source="PRODAT" id="9" name="MACOMC" offset="66705" length="29677"/> 
+<DataObject PhysicalName="TRFCM" Resident="N" data_source="PRODAT" id="10" name="TRFCM" offset="96383" length="26864"/> 
+<DataObject PhysicalName="TTPAC" Resident="N" data_source="PRODAT" id="11" name="TTPAC" offset="123248" length="8074"/> 
+<DataObject PhysicalName="TIDIOMAS" Resident="N" data_source="PRODAT" id="12" name="TIDIOMAS" offset="131323" length="7168"/> 
+<DataObject PhysicalName="TSEXO" Resident="N" data_source="PRODAT" id="15" name="TSEXO" offset="138492" length="6599"/> 
+<DataObject PhysicalName="TTECE" Resident="N" data_source="PRODAT" id="19" name="TTECE" offset="145092" length="52436"/> 
+<DataObject PhysicalName="LTECE02" Resident="N" data_source="PRODAT" id="76" name="LTECE02" offset="197529" length="51547"/> 
+<DataObject PhysicalName="LTECE03" Resident="N" data_source="PRODAT" id="77" name="LTECE03" offset="249077" length="51547"/> 
+<DataObject PhysicalName="THECE" Resident="N" data_source="PRODAT" id="20" name="THECE" offset="300625" length="61747"/> 
+<DataObject PhysicalName="------------------------------" Resident="N" data_source="Memory" id="85" name="------------------------------" offset="362373" length="438"/> 
+<DataObject PhysicalName="TTECE" Resident="N" data_source="PRUEBAS" id="86" name="TTECE - PRUEBAS" offset="362812" length="63947"/> 
+<DataObject PhysicalName="LTECE02" Resident="N" data_source="PRUEBAS" id="87" name="LTECE02 - PRUEBAS" offset="426760" length="63058"/> 
+<DataObject PhysicalName="LTECE03" Resident="N" data_source="PRUEBAS" id="88" name="LTECE03 - PRUEBAS" offset="489819" length="63058"/> 
+<DataObject PhysicalName="THECE" Resident="N" data_source="PRUEBAS" id="89" name="THECE - PRUEBAS" offset="552878" length="65233"/> 
+<DataObject PhysicalName="MEDALT" Resident="N" data_source="PRUEBAS" id="91" name="MEDALT - PRUEBAS" offset="618112" length="30114"/> 
+<DataObject PhysicalName="TTMED" Resident="N" data_source="PRUEBAS" id="96" name="TTMED - PRUEBAS" offset="648227" length="19814"/> 
+<DataObject PhysicalName="THMED" Resident="N" data_source="PRUEBAS" id="97" name="THMED - PRUEBAS" offset="668042" length="20607"/> 
+<DataObject PhysicalName="TTIUSFL" Resident="N" data_source="PRUEBAS" id="98" name="TTIUSFL - PRUEBAS" offset="688650" length="7638"/> 
+<DataObject PhysicalName="TESPMED" Resident="N" data_source="PRUEBAS" id="123" name="TESPMED" offset="696289" length="428"/> 
+<DataObject PhysicalName="TINGADM" Resident="N" data_source="PRUEBAS" id="124" name="TINGADM" offset="696718" length="428"/> 
+<DataObject PhysicalName="TCURG" Resident="N" data_source="PRUEBAS" id="125" name="TCURG" offset="697147" length="422"/> 
+<DataObject PhysicalName="TPURG" Resident="N" data_source="PRUEBAS" id="126" name="TPURG" offset="697570" length="422"/> 
+<DataObject PhysicalName="TTIPMED" Resident="N" data_source="PRUEBAS" id="127" name="TTIPMED" offset="697993" length="428"/> 
+<DataObject PhysicalName="TALMEFL" Resident="N" data_source="PRUEBAS" id="180" name="TALMEFL" offset="698422" length="407"/> 
+<DataObject Resident="N" data_source="SQLite Database" id="181" name="ADMURG" offset="698830" length="357"/> 
+<DataObject Resident="N" data_source="SQLite Database" id="182" name="TADMI" offset="699188" length="356"/> 
+<DataObject Resident="N" data_source="SQLite Database" id="183" name="MAEADM35" offset="699545" length="359"/> 
+<DataObject Resident="N" data_source="SQLite Database" id="184" name="TNOINFL" offset="699905" length="358"/> 
+<DataObject Resident="N" data_source="SQLite Database" id="185" name="MAEMED" offset="700264" length="357"/> 
+<DataObject Resident="N" data_source="SQLite Database" id="192" name="MEDALT" offset="700622" length="357"/> 
+<DataObject Resident="N" data_source="SQLite Database" id="186" name="ADMFLO" offset="700980" length="357"/> 
+<DataObject Resident="N" data_source="SQLite Database" id="190" name="TEDOC" offset="701338" length="356"/> 
+<DataObject Resident="N" data_source="SQLite Database" id="187" name="TSEXO" offset="701695" length="356"/> 
+<DataObject Resident="N" data_source="SQLite Database" id="188" name="TTPAC" offset="702052" length="356"/> 
+<DataObject PhysicalName="------------------------------" Resident="N" data_source="Memory" id="90" name="------------------------------" offset="702409" length="438"/> 
+<DataObject PhysicalName="TERREF" Resident="N" data_source="PRODAT" id="24" name="TERREF" offset="702848" length="5423"/> 
+<DataObject PhysicalName="TERREX" Resident="N" data_source="PRODAT" id="25" name="TERREX" offset="708272" length="5423"/> 
+<DataObject PhysicalName="TMOALME" Resident="N" data_source="PRODAT" id="28" name="TMOALME" offset="713696" length="6615"/> 
+<DataObject PhysicalName="TALMEFL" Resident="N" data_source="PRODAT" id="30" name="TALMEFL" offset="720312" length="8726"/> 
+<DataObject PhysicalName="LALMEFL01" Resident="N" data_source="PRODAT" id="45" name="LALMEFL01" offset="729039" length="8751"/> 
+<DataObject PhysicalName="LALMEFL02" Resident="N" data_source="PRODAT" id="46" name="LALMEFL02" offset="737791" length="8751"/> 
+<DataObject PhysicalName="MAEMED" Resident="N" data_source="PRODAT" id="31" name="MAEMED" offset="746543" length="59868"/> 
+<DataObject PhysicalName="MEDALT" Resident="N" data_source="PRODAT" id="191" name="MEDALT" offset="806412" length="25071"/> 
+<DataObject PhysicalName="TENFE" Resident="N" data_source="PRODAT" id="32" name="TENFE" offset="831484" length="6998"/> 
+<DataObject PhysicalName="MAEADM" Resident="N" data_source="PRODAT" id="193" name="MAEADM" offset="838483" length="59639"/> 
+<DataObject PhysicalName="MAEADM22" Resident="N" data_source="PRODAT" id="34" name="MAEADM22" offset="898123" length="38450"/> 
+<DataObject PhysicalName="TENCA" Resident="N" data_source="PRODAT" id="47" name="TENCA" offset="936574" length="16441"/> 
+<DataObject PhysicalName="TILABC" Resident="N" data_source="PRODAT" id="48" name="TILABC" offset="953016" length="29653"/> 
+<DataObject PhysicalName="TILABD" Resident="N" data_source="PRODAT" id="39" name="TILABD" offset="982670" length="14573"/> 
+<DataObject PhysicalName="TCIT0202" Resident="N" data_source="PRODAT" id="56" name="TCIT0202" offset="997244" length="42374"/> 
+<DataObject PhysicalName="FSESTC" Resident="N" data_source="PRODAT" id="59" name="FSESTC" offset="1039619" length="35196"/> 
+<DataObject PhysicalName="HSESTC" Resident="N" data_source="PRODAT" id="64" name="HSESTC" offset="1074816" length="37494"/> 
+<DataObject PhysicalName="FSESTD" Resident="N" data_source="PRODAT" id="60" name="FSESTD" offset="1112311" length="14772"/> 
+<DataObject PhysicalName="HSESTD" Resident="N" data_source="PRODAT" id="63" name="HSESTD" offset="1127084" length="16952"/> 
+<DataObject PhysicalName="TFLRSRV" Resident="N" data_source="PRODAT" id="65" name="TFLRSRV" offset="1144037" length="27934"/> 
+<DataObject PhysicalName="TADMI" Resident="N" data_source="PRODAT" id="68" name="TADMI" offset="1171972" length="17888"/> 
+<DataObject PhysicalName="TELEME" Resident="N" data_source="PRODAT" id="75" name="TELEME" offset="1189861" length="11777"/> 
+<DataObject PhysicalName="TINGADM" Resident="N" data_source="PRODAT" id="73" name="TINGADM" offset="1201639" length="8635"/> 
+<DataObject PhysicalName="TTECINDP" Resident="N" data_source="PRODAT" id="78" name="TTECINDP" offset="1210275" length="19367"/> 
+<DataObject PhysicalName="TTECINDDP" Resident="N" data_source="PRODAT" id="80" name="TTECINDDP" offset="1229643" length="5885"/> 
+<DataObject PhysicalName="TTECINDMP" Resident="N" data_source="PRODAT" id="79" name="TTECINDMP" offset="1235529" length="9635"/> 
+<DataObject PhysicalName="TBITLAB" Resident="N" data_source="PRODAT" id="92" name="TBITLAB" offset="1245165" length="14907"/> 
+<DataObject PhysicalName="TSURURSO" Resident="N" data_source="IND2016" id="72" name="TSURURSO" offset="1260073" length="16728"/> 
+<DataObject PhysicalName="TZURRSO" Resident="N" data_source="IND2016" id="81" name="TZURRSO" offset="1276802" length="19339"/> 
+<DataObject PhysicalName="TSURTVX" Resident="N" data_source="IND2016" id="82" name="TSURTVX" offset="1296142" length="23411"/> 
+<DataObject PhysicalName="TTMED" Resident="N" data_source="PRODAT" id="93" name="TTMED" offset="1319554" length="19803"/> 
+<DataObject PhysicalName="THMED" Resident="N" data_source="PRODAT" id="94" name="THMED" offset="1339358" length="20596"/> 
+<DataObject PhysicalName="TTIUSFL" Resident="N" data_source="PRODAT" id="95" name="TTIUSFL" offset="1359955" length="7627"/> 
+<DataObject PhysicalName="VisorExpediente" Resident="N" data_source="Memory" id="69" name="VisorExpedienteMemory" offset="1367583" length="14436"/> 
+<DataObject PhysicalName="----------- LAB -------------" Resident="N" data_source="Memory" id="99" name="----------- LAB -------------" offset="1382020" length="436"/> 
+<DataObject PhysicalName="MENCVA" Resident="N" data_source="PRODAT" id="100" name="MENCVA" offset="1382457" length="11198"/> 
+<DataObject PhysicalName="TESTH" Resident="N" data_source="PRODAT" id="101" name="TESTH" offset="1393656" length="21962"/> 
+<DataObject PhysicalName="TESTH" Resident="N" data_source="PRUEBAS" id="150" name="TESTH" offset="1415619" length="21942"/> 
+<DataObject PhysicalName="TESTP" Resident="N" data_source="PRODAT" id="102" name="TESTP" offset="1437562" length="10332"/> 
+<DataObject PhysicalName="TTRAB9" Resident="N" data_source="PRODAT" id="103" name="TTRAB9" offset="1447895" length="28678"/> 
+<DataObject PhysicalName="TTRA07" Resident="N" data_source="PRODAT" id="104" name="TTRA07" offset="1476574" length="12029"/> 
+<DataObject PhysicalName="TTRA09" Resident="N" data_source="PRODAT" id="105" name="TTRA09" offset="1488604" length="15801"/> 
+<DataObject PhysicalName="TRAYO1" Resident="N" data_source="PRODAT" id="106" name="TRAYO1" offset="1504406" length="21687"/> 
+<DataObject PhysicalName="TTRA09" Resident="N" data_source="PRODAT" id="107" name="TTRA09" offset="1526094" length="15801"/> 
+<DataObject PhysicalName="FSESTC" Resident="N" data_source="PRUEBAS" id="108" name="FSESTC" offset="1541896" length="42698"/> 
+<DataObject PhysicalName="FSESTD" Resident="N" data_source="PRODAT" id="109" name="FSESTD" offset="1584595" length="14773"/> 
+<DataObject PhysicalName="TILABC" Resident="N" data_source="PRODAT" id="110" name="TILABC" offset="1599369" length="34629"/> 
+<DataObject PhysicalName="TILABC" Resident="N" data_source="PRUEBAS" id="148" name="TILABC" offset="1633999" length="34609"/> 
+<DataObject PhysicalName="TILABD" Resident="N" data_source="PRODAT" id="111" name="TILABD" offset="1668609" length="20371"/> 
+<DataObject PhysicalName="TILABD" Resident="N" data_source="PRUEBAS" id="149" name="TILABD" offset="1688981" length="20351"/> 
+<DataObject PhysicalName="Solicitudes" Resident="N" data_source="Labcore" id="112" name="Solicitudes" offset="1709333" length="27046"/> 
+<DataObject PhysicalName="TSURURSO" Resident="N" data_source="IND2016" id="113" name="TSURURSO" offset="1736380" length="17527"/> 
+<DataObject PhysicalName="TSURTVX" Resident="N" data_source="IND2016" id="114" name="TSURTVX" offset="1753908" length="24207"/> 
+<DataObject PhysicalName="ADMMEDENC1" Resident="N" data_source="PRODAT" id="115" name="ADMMEDENC1" offset="1778116" length="20822"/> 
+<DataObject PhysicalName="TTECINDP" Resident="N" data_source="PRUEBAS" id="116" name="TTECINDP" offset="1798939" length="23756"/> 
+<DataObject PhysicalName="TTECINDDP" Resident="N" data_source="PRUEBAS" id="122" name="TTECINDDP" offset="1822696" length="6895"/> 
+<DataObject PhysicalName="TMAEFA" Resident="N" data_source="PRODAT" id="120" name="TMAEFA" offset="1829592" length="49676"/> 
+<DataObject PhysicalName="Administracion_Medicamentos" Resident="N" data_source="Memory" id="121" name="Administracion_Medicamentos" offset="1879269" length="8835"/> 
+<DataObject PhysicalName="TNOINFL" Resident="N" data_source="PRODAT" id="194" name="TNOINFL" offset="1888105" length="11027"/> 
+<DataObject PhysicalName="ADMURG" Resident="N" data_source="PRODAT" id="128" name="ADMURG" offset="1899133" length="9511"/> 
+<DataObject PhysicalName="ADMFLO" Resident="N" data_source="PRODAT" id="134" name="ADMFLO" offset="1908645" length="4522"/> 
+<DataObject PhysicalName="ATECE" Resident="N" data_source="PRODAT" id="195" name="ATECE" offset="1913168" length="15651"/> 
+<DataObject PhysicalName="LATECE01" Resident="N" data_source="PRODAT" id="196" name="LATECE01" offset="1928820" length="14748"/> 
+<DataObject PhysicalName="MEDUNI" Resident="N" data_source="PRODAT" id="197" name="MEDUNI" offset="1943569" length="6094"/> 
+<DataObject PhysicalName="MACOMM" Resident="N" data_source="PRODAT" id="198" name="MACOMM" offset="1949664" length="6436"/> 
+<DataObject PhysicalName="TTECE" Resident="N" data_source="PRODATGX" id="199" name="TTECE" offset="1956101" length="59166"/> 
+<DataObject PhysicalName="LTECE02" Resident="N" data_source="PRODATGX" id="200" name="LTECE02" offset="2015268" length="58953"/> 
+<DataObject PhysicalName="LTECE03" Resident="N" data_source="PRODATGX" id="201" name="LTECE03" offset="2074222" length="58953"/> 
+<DataObject PhysicalName="THECE" Resident="N" data_source="PRODATGX" id="202" name="THECE" offset="2133176" length="59722"/> 
+<DataObject PhysicalName="TEDOC" Resident="N" data_source="PRODATGX" id="203" name="TEDOC" offset="2192899" length="6587"/> 
+<DataObject PhysicalName="TSEXO" Resident="N" data_source="PRODATGX" id="204" name="TSEXO" offset="2199487" length="6581"/> 
+<DataObject PhysicalName="TTPAC" Resident="N" data_source="PRODATGX" id="205" name="TTPAC" offset="2206069" length="8056"/> 
+<DataObject PhysicalName="------------------------" Resident="N" data_source="SQLite Database" id="206" name="------------------------------" offset="2214126" length="421"/> 
+<DataObject PhysicalName="MAECON" Resident="N" data_source="PRODAT" id="135" name="MAECON" offset="2214548" length="14584"/> 
+<DataObject PhysicalName="MAECON" Resident="N" data_source="PRUEBAS" id="137" name="MAECON - PRUEBAS" offset="2229133" length="17317"/> 
+<DataObject PhysicalName="FSESTC03" Resident="N" data_source="PRUEBAS" id="151" name="FSESTC03 - PRUEBAS" offset="2246451" length="41917"/> 
+<DataObject PhysicalName="TDETA1" Resident="N" data_source="PRODAT" id="160" name="TDETA1" offset="2288369" length="21106"/> 
+<DataObject PhysicalName="BITSILPF" Resident="N" data_source="PRODAT" id="170" name="BITSILPF" offset="2309476" length="21580"/> 
+<DataObject PhysicalName="TREFPACEXP" Resident="N" data_source="PRUEBAS" id="171" name="TREFPACEXP - PRUEBAS" offset="2331057" length="28032"/> 
+<DataObject PhysicalName="TSECCION" Resident="N" data_source="PRUEBAS" id="175" name="TSECCION - PRUEBAS" offset="2359090" length="11382"/> 
+<DataObject PhysicalName="TSECCION" Resident="N" data_source="PRODAT" id="208" name="TSECCION" offset="2370473" length="9239"/> 
+<DataObject PhysicalName="TREFESTL" Resident="N" data_source="PRUEBAS" id="176" name="TREFESTL - PRUEBAS" offset="2379713" length="30392"/> 
+<DataObject PhysicalName="TREFESTL" Resident="N" data_source="PRODAT" id="209" name="TREFESTL" offset="2410106" length="409"/> 
+<DataObject PhysicalName="HREFESTL" Resident="N" data_source="PRUEBAS" id="177" name="HREFESTL - PRUEBAS" offset="2410516" length="31228"/> 
+<DataObject PhysicalName="HREFESTL" Resident="N" data_source="PRODAT" id="210" name="HREFESTL" offset="2441745" length="409"/> 
+<DataObject PhysicalName="TNOCEFL" Resident="N" data_source="PRUEBAS" id="179" name="TNOCEFL - PRUEBAS" offset="2442155" length="11473"/> 
+<DataObject PhysicalName="TNOCEFL" Resident="N" data_source="PRODAT" id="211" name="TNOCEFL" offset="2453629" length="9591"/> 
+<DataObject PhysicalName="---------------------------" Resident="N" data_source="SQLite Database" id="212" name="------------------------------" offset="2463221" length="424"/> 
+<DataObject PhysicalName="BICOSOC" Resident="N" data_source="PRUEBAS" id="214" name="BICOSOC - PRUEBAS" offset="2463646" length="21333"/> 
+<DataObject PhysicalName="BICOSOC" Resident="N" data_source="PRODAT" id="215" name="BICOSOC" offset="2484980" length="17566"/> 
+<DataObject PhysicalName="TMAES7" Resident="N" data_source="PRUEBAS" id="216" name="TMAES7 - PRUEBAS" offset="2502547" length="33936"/> 
+<DataObject PhysicalName="TMAES7" Resident="N" data_source="PRODAT" id="217" name="TMAES7" offset="2536484" length="28982"/> 
+<DataObject PhysicalName="------------------------------" Resident="N" data_source="Memory" id="220" name="------------------------------" offset="2565467" length="9780"/> 
+<DataObject Resident="N" data_source="SQLite Database" id="221" name="VISOR EXPCLIELEC" offset="2575248" length="367"/> 
+<DataObject PhysicalName="Usuario" Resident="N" data_source="InterExpCli" id="224" name="Usuario" offset="2575616" length="5815"/> 
+<DataObject PhysicalName="TipoUsuario" Resident="N" data_source="InterExpCli" id="225" name="TipoUsuario" offset="2581432" length="4747"/> 
+<DataObject PhysicalName="FSERVI" Resident="N" data_source="PRUEBAS" id="226" name="FSERVI" offset="2586180" length="15171"/> 
+<DataObject PhysicalName="FSESTC" Resident="N" data_source="PRUEBAS" id="233" name="FSESTC" offset="2601352" length="35620"/> 
+<DataObject Resident="N" data_source="SQLite Database" id="227" offset="2636973" length="343"/> 
+<DataObject Resident="N" data_source="SQLite Database" id="228" offset="2637317" length="343"/> 
+<DataObject Resident="N" data_source="SQLite Database" id="229" offset="2637661" length="343"/> 
+<DataObject Resident="N" data_source="SQLite Database" id="230" offset="2638005" length="343"/> 
+<DataObject Resident="N" data_source="SQLite Database" id="231" offset="2638349" length="343"/> 
+<DataObject PhysicalName="---------------------------" Resident="N" data_source="SQLite Database" id="232" name="------------------------------" offset="2638693" length="424"/>  </DataObjects>
+ </DataSourceRepository>
+ <LastModified val="30623986-55001458"/>  </Application>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <DebugMode Val="N"/>
+
+  <Breakpoints>
+    <DelAll/>
+    <Breakpoint>
+      <Condition Val=""/>
+      <Location Val="Listado de Estudios"/>
+      <HandlerId Val="7"/>
+      <OperationId Val="73"/>
+      <LineIndex Val="12"/>
+      <HandlerDesc Val="Event:BTN_Buscar &lt;/BTN_Buscar1>"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="854087203"/>
+      <Component2 Val="39862"/>
+      <Component3 Val="17759"/>
+      <Component4 Val="915034290"/>
+      <Component5 Val="1000959209"/>
+      <Prog Val="125"/>
+      <Subtask Val="1"/>
+      <Type Val="1"/>
+      <Operation Val="73"/>
+    </Breakpoint>
+    <Breakpoint>
+      <Condition Val=""/>
+      <Location Val="Menu - Principal.Opciones"/>
+      <HandlerId Val="9"/>
+      <OperationId Val="7"/>
+      <LineIndex Val="12"/>
+      <HandlerDesc Val="Event:Menu_ExpCliElec"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="854087203"/>
+      <Component2 Val="39862"/>
+      <Component3 Val="17759"/>
+      <Component4 Val="915034290"/>
+      <Component5 Val="1000959209"/>
+      <Prog Val="105"/>
+      <Subtask Val="2"/>
+      <Type Val="1"/>
+      <Operation Val="7"/>
+    </Breakpoint>
+    <Breakpoint>
+      <Condition Val=""/>
+      <Location Val="Visor del Expediente"/>
+      <HandlerId Val="5"/>
+      <OperationId Val="97"/>
+      <LineIndex Val="13"/>
+      <HandlerDesc Val="Event:Consultar"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="854087203"/>
+      <Component2 Val="39862"/>
+      <Component3 Val="17759"/>
+      <Component4 Val="915034290"/>
+      <Component5 Val="1000959209"/>
+      <Prog Val="61"/>
+      <Subtask Val="1"/>
+      <Type Val="1"/>
+      <Operation Val="97"/>
+    </Breakpoint>
+    <Breakpoint>
+      <Condition Val=""/>
+      <Location Val="Fusion Pacientes"/>
+      <HandlerId Val="7"/>
+      <OperationId Val="41"/>
+      <LineIndex Val="9"/>
+      <HandlerDesc Val="Event:BTN_Buscar &lt;/BTN_Buscar>"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="854087203"/>
+      <Component2 Val="39862"/>
+      <Component3 Val="17759"/>
+      <Component4 Val="915034290"/>
+      <Component5 Val="1000959209"/>
+      <Prog Val="127"/>
+      <Subtask Val="1"/>
+      <Type Val="1"/>
+      <Operation Val="41"/>
+    </Breakpoint>
+    <Breakpoint>
+      <Condition Val=""/>
+      <Location Val="Fusion Pacientes"/>
+      <HandlerId Val="9"/>
+      <OperationId Val="55"/>
+      <LineIndex Val="15"/>
+      <HandlerDesc Val="Event:BTN_Ver &lt;/BTN_Reprocesar>"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="854087203"/>
+      <Component2 Val="39862"/>
+      <Component3 Val="17759"/>
+      <Component4 Val="915034290"/>
+      <Component5 Val="1000959209"/>
+      <Prog Val="127"/>
+      <Subtask Val="1"/>
+      <Type Val="1"/>
+      <Operation Val="55"/>
+    </Breakpoint>
+    <Breakpoint>
+      <Condition Val=""/>
+      <Location Val="Fusion Pacientes.Reprocesar?"/>
+      <HandlerId Val="3"/>
+      <OperationId Val="11"/>
+      <LineIndex Val="3"/>
+      <HandlerDesc Val="Task Prefix"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="854087203"/>
+      <Component2 Val="39862"/>
+      <Component3 Val="17759"/>
+      <Component4 Val="915034290"/>
+      <Component5 Val="1000959209"/>
+      <Prog Val="127"/>
+      <Subtask Val="2"/>
+      <Type Val="1"/>
+      <Operation Val="11"/>
+    </Breakpoint>
+    <Breakpoint>
+      <Condition Val="Acc A=Alt,M=Mod,B=Ba"/>
+      <Location Val="Pruebas Laboratorio.Get Consecutivo.Copiar a Historico"/>
+      <HandlerId Val="1"/>
+      <OperationId Val="7"/>
+      <LineIndex Val="4"/>
+      <HandlerDesc Val=""/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="854087203"/>
+      <Component2 Val="39862"/>
+      <Component3 Val="17759"/>
+      <Component4 Val="915034290"/>
+      <Component5 Val="1000959209"/>
+      <Prog Val="130"/>
+      <Subtask Val="3"/>
+      <Type Val="2"/>
+      <Var Val="3"/>
+    </Breakpoint>
+    <Breakpoint>
+      <Condition Val=""/>
+      <Location Val="Pruebas Laboratorio Historico"/>
+      <HandlerId Val="8"/>
+      <OperationId Val="18"/>
+      <LineIndex Val="8"/>
+      <HandlerDesc Val="Event:BTN_Limpiar &lt;/Limpiar>"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="854087203"/>
+      <Component2 Val="39862"/>
+      <Component3 Val="17759"/>
+      <Component4 Val="915034290"/>
+      <Component5 Val="1000959209"/>
+      <Prog Val="351"/>
+      <Subtask Val="1"/>
+      <Type Val="1"/>
+      <Operation Val="18"/>
+    </Breakpoint>
+    <Breakpoint>
+      <Condition Val=""/>
+      <Location Val="Pruebas Laboratorio Historico"/>
+      <HandlerId Val="8"/>
+      <OperationId Val="23"/>
+      <LineIndex Val="9"/>
+      <HandlerDesc Val="Event:BTN_Limpiar &lt;/Limpiar>"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="854087203"/>
+      <Component2 Val="39862"/>
+      <Component3 Val="17759"/>
+      <Component4 Val="915034290"/>
+      <Component5 Val="1000959209"/>
+      <Prog Val="351"/>
+      <Subtask Val="1"/>
+      <Type Val="1"/>
+      <Operation Val="23"/>
+    </Breakpoint>
+    <Breakpoint>
+      <Condition Val=""/>
+      <Location Val="Consulta Externa"/>
+      <HandlerId Val="3"/>
+      <OperationId Val="37"/>
+      <LineIndex Val="3"/>
+      <HandlerDesc Val="Task Prefix"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="854087203"/>
+      <Component2 Val="39862"/>
+      <Component3 Val="17759"/>
+      <Component4 Val="915034290"/>
+      <Component5 Val="1000959209"/>
+      <Prog Val="135"/>
+      <Subtask Val="1"/>
+      <Type Val="1"/>
+      <Operation Val="37"/>
+    </Breakpoint>
+  </Breakpoints>
+
+  <WatchListItems>
+    <RestData/>
+  </WatchListItems>
+
+</Application>
